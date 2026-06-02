@@ -1,0 +1,9 @@
+player_id,player_name,minutes_played,matches_played,match_date,club
+1,Kylian Mbappé,90,1,2024-09-15,Paris Saint-Germain
+2,Ousmane Dembélé,75,1,2024-09-15,Paris Saint-Germain
+3,Pierre-Emerick Aubameyang,90,1,2024-10-06,Olympique de Marseille
+4,Alexandre Lacazette,82,1,2024-10-06,Olympique Lyonnais
+5,Jonathan David,90,1,2024-11-10,LOSC Lille
+6,Benjamin Bourigeaud,68,1,2024-11-10,Stade Rennais
+7,Teji Savanier,90,1,2024-09-15,Montpellier
+8,Wissam Ben Yedder,45,1,2024-10-06,AS Monaco

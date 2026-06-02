@@ -1,0 +1,514 @@
+[
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 15.300000190734863,
+        "humidity": 92
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 19.700000762939453,
+        "humidity": 65
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 10.600000381469727,
+        "humidity": 66
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 11.5,
+        "humidity": 91
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 15.5,
+        "humidity": 93
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 10.699999809265137,
+        "humidity": 63
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 13.600000381469727,
+        "humidity": 64
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 14.5,
+        "humidity": 88
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 17.600000381469727,
+        "humidity": 62
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 10.699999809265137,
+        "humidity": 62
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 20.0,
+        "humidity": 79
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 18.799999237060547,
+        "humidity": 84
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 18.899999618530273,
+        "humidity": 81
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 15.100000381469727,
+        "humidity": 94
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 12.800000190734863,
+        "humidity": 73
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 17.299999237060547,
+        "humidity": 74
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 14.399999618530273,
+        "humidity": 78
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 10.300000190734863,
+        "humidity": 93
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 17.399999618530273,
+        "humidity": 90
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 14.5,
+        "humidity": 83
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 14.199999809265137,
+        "humidity": 67
+    },
+    {
+        "player_name": "Teji Savanier",
+        "club": "Montpellier",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 17.799999237060547,
+        "humidity": 63
+    },
+    {
+        "player_name": "Wissam Ben Yedder",
+        "club": "AS Monaco",
+        "minutes_played": 45,
+        "match_date": "2024-10-06",
+        "temperature": 14.199999809265137,
+        "humidity": 61
+    },
+    {
+        "player_name": "Benjamin Bourigeaud",
+        "club": "Stade Rennais",
+        "minutes_played": 68,
+        "match_date": "2024-11-10",
+        "temperature": 18.399999618530273,
+        "humidity": 91
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 15.300000190734863,
+        "humidity": 92
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 19.700000762939453,
+        "humidity": 65
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 10.600000381469727,
+        "humidity": 66
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 11.5,
+        "humidity": 91
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 15.5,
+        "humidity": 93
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 10.699999809265137,
+        "humidity": 63
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 13.600000381469727,
+        "humidity": 64
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 14.5,
+        "humidity": 88
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 17.600000381469727,
+        "humidity": 62
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 10.699999809265137,
+        "humidity": 62
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 20.0,
+        "humidity": 79
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 18.799999237060547,
+        "humidity": 84
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 18.899999618530273,
+        "humidity": 81
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 15.100000381469727,
+        "humidity": 94
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 12.800000190734863,
+        "humidity": 73
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 17.299999237060547,
+        "humidity": 74
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 14.399999618530273,
+        "humidity": 78
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 10.300000190734863,
+        "humidity": 93
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 17.399999618530273,
+        "humidity": 90
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 14.5,
+        "humidity": 83
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 14.199999809265137,
+        "humidity": 67
+    },
+    {
+        "player_name": "Ousmane Dembélé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 75,
+        "match_date": "2024-09-15",
+        "temperature": 17.799999237060547,
+        "humidity": 63
+    },
+    {
+        "player_name": "Alexandre Lacazette",
+        "club": "Olympique Lyonnais",
+        "minutes_played": 82,
+        "match_date": "2024-10-06",
+        "temperature": 14.199999809265137,
+        "humidity": 61
+    },
+    {
+        "player_name": "Jonathan David",
+        "club": "LOSC Lille",
+        "minutes_played": 90,
+        "match_date": "2024-11-10",
+        "temperature": 18.399999618530273,
+        "humidity": 91
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 15.300000190734863,
+        "humidity": 92
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 19.700000762939453,
+        "humidity": 65
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 11.5,
+        "humidity": 91
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 15.5,
+        "humidity": 93
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 13.600000381469727,
+        "humidity": 64
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 14.5,
+        "humidity": 88
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 10.699999809265137,
+        "humidity": 62
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 20.0,
+        "humidity": 79
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 18.899999618530273,
+        "humidity": 81
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 15.100000381469727,
+        "humidity": 94
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 17.299999237060547,
+        "humidity": 74
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 14.399999618530273,
+        "humidity": 78
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 17.399999618530273,
+        "humidity": 90
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 14.5,
+        "humidity": 83
+    },
+    {
+        "player_name": "Kylian Mbappé",
+        "club": "Paris Saint-Germain",
+        "minutes_played": 90,
+        "match_date": "2024-09-15",
+        "temperature": 17.799999237060547,
+        "humidity": 63
+    },
+    {
+        "player_name": "Pierre-Emerick Aubameyang",
+        "club": "Olympique de Marseille",
+        "minutes_played": 90,
+        "match_date": "2024-10-06",
+        "temperature": 14.199999809265137,
+        "humidity": 61
+    }
+]

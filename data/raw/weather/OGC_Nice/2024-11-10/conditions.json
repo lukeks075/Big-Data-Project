@@ -1,0 +1,14 @@
+{
+  "main": {
+    "temp": 17.6,
+    "humidity": 62,
+    "feels_like": 16.4,
+    "temp_min": 14.6,
+    "temp_max": 19.6
+  },
+  "clouds": {
+    "all": 38
+  },
+  "dt_txt": "2024-11-10 20:45:00",
+  "cod": 200
+}

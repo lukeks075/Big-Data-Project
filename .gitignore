@@ -1,6 +1,7 @@
-.env
-.venv/
-datalake/
+dev.duckdb
+dev.duckdb.wal
 __pycache__/
-*.pyc
+.dbt/
+target/
 logs/
+.DS_Store

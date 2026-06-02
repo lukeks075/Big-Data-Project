@@ -1,0 +1,7 @@
+dbt_football_injuries:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'datalake/duckdb_project.db'
+      schema: main
+  target: dev
