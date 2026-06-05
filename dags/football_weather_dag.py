@@ -21,19 +21,19 @@ with DAG(
     # 1. Ingestion des données (Football & Weather)
     task_ingest = BashOperator(
         task_id='ingest_data',
-        bash_command='python /Users/gratien/Downloads/Big-Data-Project/ingest_football.py && python /Users/gratien/Downloads/Big-Data-Project/ingest_weather.py'
+        bash_command='python C:/Users/ldear/big-data-project/ingest_football.py && python C:/Users/ldear/big-data-project/ingest_weather.py'
     )
 
     # 2. Transformation DBT (Le cœur du calcul)
     task_transform = BashOperator(
         task_id='dbt_run',
-        bash_command='dbt run --project-dir /Users/gratien/Downloads/Big-Data-Project/'
+        bash_command='dbt run --project-dir C:/Users/ldear/big-data-project/'
     )
 
     # 3. Indexation Elasticsearch
     task_index = BashOperator(
         task_id='index_to_elastic',
-        bash_command='python /Users/gratien/Downloads/Big-Data-Project/index_to_elasticsearch.py'
+        bash_command='python C:/Users/ldear/big-data-project/index_to_elasticsearch.py'
     )
 
     # Définition de la séquence
