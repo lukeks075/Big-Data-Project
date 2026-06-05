@@ -2,6 +2,14 @@ version: '3'
 services:
   airflow:
     image: apache/airflow:2.9.1
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__WEB_SERVER_PORT=8080
+      - _AIRFLOW_DB_MIGRATE=true
+      - _AIRFLOW_WWW_USER_CREATE=true
+      - _AIRFLOW_WWW_USER_USERNAME=GratienM
+      - _AIRFLOW_WWW_USER_PASSWORD=LucasD
     volumes:
       - ./dags:/opt/airflow/dags
       - ./ingest_football.py:/opt/airflow/dags/ingest_football.py
