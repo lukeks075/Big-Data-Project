@@ -4,11 +4,9 @@ from datetime import datetime
 
 print("Démarrage de l'ingestion des données Football...")
 
-# Création du dossier de destination dans le conteneur si nécessaire
 output_dir = "/opt/airflow/data"
 os.makedirs(output_dir, exist_ok=True)
 
-# Données d'exemple (Football)
 data_football = {
     "match_id": [1, 2, 3],
     "equipe_domicile": ["Paris SG", "Marseille", "Lyon"],

@@ -2,12 +2,10 @@ import os
 import pandas as pd
 from datetime import datetime
 
-print("Démarrage de l'ingestion des données Météo...")
 
 output_dir = "/opt/airflow/data"
 os.makedirs(output_dir, exist_ok=True)
 
-# Données d'exemple (Météo)
 data_weather = {
     "ville": ["Paris", "Marseille", "Lyon"],
     "temperature_celsius": [18.5, 24.0, 16.2],

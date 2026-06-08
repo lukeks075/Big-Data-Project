@@ -16,7 +16,6 @@ for d in dirs:
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, ".gitkeep"), "w").close()
 
-print("✅ Structure Datalake créée avec succès !")
 for root, subdirs, files in os.walk(BASE):
     level = root.replace(BASE, "").count(os.sep)
     indent = "  " * level

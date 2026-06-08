@@ -3,25 +3,20 @@ import os
 import random
 from datetime import datetime
 
-# Configuration du chemin du Datalake local
 DATALAKE = "./datalake"
 
-# Les stades du projet
 STADIUMS = [
     "Paris_Saint-Germain", "Olympique_de_Marseille", "Olympique_Lyonnais",
     "AS_Monaco", "LOSC_Lille", "Stade_Rennais", "RC_Lens", "OGC_Nice"
 ]
 
-# Les dates des matchs demandées
 MATCH_DATES = ["2024-09-15", "2024-10-06", "2024-11-10"]
 
 def generate_mock_weather(stadium, date_str):
-    # Simuler des températures réalistes pour l'automne français (entre 8°C et 22°C)
     temp = round(random.uniform(10.0, 20.0), 1)
-    humidity = random.randint(60, 95)  # Humidité en %
-    clouds = random.randint(10, 100)   # Couverture nuageuse en %
+    humidity = random.randint(60, 95)  
+    clouds = random.randint(10, 100)  
     
-    # Structure JSON exacte calquée sur ce que dbt attend
     weather_data = {
         "main": {
             "temp": temp,
@@ -33,29 +28,28 @@ def generate_mock_weather(stadium, date_str):
         "clouds": {
             "all": clouds
         },
-        "dt_txt": f"{date_str} 20:45:00", # Heure classique de match
+        "dt_txt": f"{date_str} 20:45:00", 
         "cod": 200
     }
     
-    # Création du dossier : datalake/raw/weather/Nom_du_Club/YYYY-MM-DD/
     path = os.path.join(DATALAKE, "raw", "weather", stadium, date_str)
     os.makedirs(path, exist_ok=True)
     
     filepath = os.path.join(path, "conditions.json")
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(weather_data, f, indent=2)
-    print(f"✅ Mock météo généré pour {stadium} ({date_str}) -> {temp}°C, {humidity}% Humidité")
+    print(f" Mock météo généré pour {stadium} ({date_str}) -> {temp}°C, {humidity}% Humidité")
 
 if __name__ == "__main__":
-    print("🧹 Nettoyage des anciens fichiers d'erreur...")
+    print(" Nettoyage des anciens fichiers d'erreur...")
     import shutil
     weather_dir = os.path.join(DATALAKE, "raw", "weather")
     if os.path.exists(weather_dir):
         shutil.rmtree(weather_dir)
         
-    print("🌤️ Début de la génération des données météo gratuites...")
+    print(" Début de la génération des données météo gratuites...")
     for date in MATCH_DATES:
         for stadium in STADIUMS:
             generate_mock_weather(stadium, date)
             
-    print("\n🎉 Ingestion météo simulée terminée avec succès (100% Gratuit) !")
+    print("\n Ingestion météo simulée terminée avec succès (100% Gratuit) !")

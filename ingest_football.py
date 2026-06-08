@@ -21,10 +21,9 @@ def save_raw(data, folder, filename):
     filepath = os.path.join(path, filename)
     with open(filepath, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"✅ Sauvegardé : {filepath}")
+    print(f" Sauvegardé : {filepath}")
 
 def fetch_fixtures():
-    print("📡 Récupération des matchs Ligue 1...")
     response = requests.get(
         f"{BASE_URL}/fixtures",
         headers=headers,
@@ -35,7 +34,6 @@ def fetch_fixtures():
     return data
 
 def fetch_players_stats(fixture_id):
-    print(f"📡 Récupération stats joueurs pour match {fixture_id}...")
     response = requests.get(
         f"{BASE_URL}/fixtures/players",
         headers=headers,
@@ -47,7 +45,6 @@ def fetch_players_stats(fixture_id):
 if __name__ == "__main__":
     fixtures = fetch_fixtures()
     fixture_ids = [f["fixture"]["id"] for f in fixtures.get("response", [])]
-    print(f"🏟️  {len(fixture_ids)} matchs trouvés")
-    for fid in fixture_ids[:3]:  # on prend les 3 premiers pour tester
+    for fid in fixture_ids[:3]:  
         fetch_players_stats(fid)
-    print("✅ Ingestion football terminée !")
+    print(" Ingestion football terminée !")

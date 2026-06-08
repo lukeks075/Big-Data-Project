@@ -9,7 +9,6 @@ DB_PATH = os.path.join(BASE_DIR, "dev.duckdb")
 try:
     subprocess.run(["python", os.path.join(BASE_DIR, "ingest_football.py")], check=True)
     subprocess.run(["python", os.path.join(BASE_DIR, "ingest_weather.py")], check=True)
-    print("✅ Ingestion terminée avec succès dans la couche data/raw/ !")
 except Exception as e:
     print("ok")
 

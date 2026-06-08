@@ -7,10 +7,8 @@ FOOTBALL_DIR = os.path.join(BASE_DIR, "datalake/raw/football")
 FOOTBALL_CSV = os.path.join(FOOTBALL_DIR, "stats_ligue1_2024.csv")
 WEATHER_SRC = os.path.join(BASE_DIR, "datalake/raw/weather/**/*.json")
 
-# 1. Création automatique du dossier et du fichier CSV de foot s'il n'existe pas
 os.makedirs(FOOTBALL_DIR, exist_ok=True)
 
-print("📝 Génération automatique du fichier CSV de football manquant...")
 csv_content = """player_id,player_name,minutes_played,matches_played,match_date,club
 1,Kylian Mbappé,90,1,2024-09-15,Paris Saint-Germain
 2,Ousmane Dembélé,75,1,2024-09-15,Paris Saint-Germain
@@ -24,21 +22,17 @@ csv_content = """player_id,player_name,minutes_played,matches_played,match_date,
 
 with open(FOOTBALL_CSV, "w", encoding="utf-8") as f:
     f.write(csv_content.strip())
-print(f"✅ CSV créé avec succès dans : {FOOTBALL_CSV}")
+print(f" CSV créé avec succès dans : {FOOTBALL_CSV}")
 
 
-# 2. Exécution de DuckDB pour tout fusionner
 con = duckdb.connect(DB_PATH)
-print("\n🛠️ Génération de la table finale fusionnée...")
 
 try:
-    # Lecture du football depuis le CSV tout neuf
     con.execute(f"""
         CREATE OR REPLACE TABLE stg_football_stats AS 
         SELECT * FROM read_csv_auto('{FOOTBALL_CSV}');
     """)
     
-    # Lecture de la météo depuis tes JSON
     con.execute(f"""
         CREATE OR REPLACE TABLE stg_weather_stats AS 
         SELECT 
@@ -50,7 +44,6 @@ try:
         WHERE main IS NOT NULL;
     """)
     
-    # Création de la jointure finale
     con.execute("""
         CREATE OR REPLACE TABLE fct_football_weather AS
         SELECT
@@ -72,4 +65,4 @@ try:
     print(con.sql("SELECT * FROM fct_football_weather").show())
 
 except Exception as e:
-    print("❌ Erreur lors du calcul :", e)
+    print(e)
