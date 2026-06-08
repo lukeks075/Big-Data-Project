@@ -14,7 +14,6 @@ services:
       - ./dags:/opt/airflow/dags
       - ./ingest_football.py:/opt/airflow/dags/ingest_football.py
       - ./ingest_weather.py:/opt/airflow/dags/ingest_weather.py
-      - ./index_to_elasticsearch.py:/opt/airflow/dags/index_to_elasticsearch.py
     ports:
       - "8080:8080"
-    command: standalone
+    command: bash -c "pip install duckdb elasticsearch python-dotenv && airflow standalone"
